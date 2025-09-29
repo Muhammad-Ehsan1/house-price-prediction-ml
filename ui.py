@@ -58,6 +58,7 @@ if st.button("🔮 Predict Price", use_container_width=True):
     # Predict
     prediction = model.predict([x])[0]
 
-    st.success(f"💰 Estimated Price: **₹ {prediction:,.2f} k**")
+    st.success(f"💰 Estimated Price: **₹ {prediction:,.2f}k**")
     st.balloons()
+
 
